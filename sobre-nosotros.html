@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Panadería YG - Sobre Nosotros</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilos/styles.css">
+  <style>
+    /* Estilos para los botones de redes sociales */
+    #social-links {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center; /* Centra los botones horizontalmente */
+    }
+
+    .social-button {
+        width: 50px; /* Ancho fijo para los botones */
+        height: 50px; /* Alto fijo para los botones */
+        cursor: pointer;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .social-button img {
+        max-width: 100%; /* Ajusta el tamaño máximo del icono */
+        max-height: 100%; /* Ajusta el tamaño máximo del icono */
+    }
+
+    .social-button:hover {
+        filter: brightness(80%); /* Cambia el brillo al pasar el ratón */
+    }
+  </style>
+  <!-- Puedes incluir el script.js si es necesario para esta página -->
+</head>
+<body>
+  <header>
+    <a href="index.html">
+        <img id="logo" src="assets/logo_yg.jpeg" alt="Logo de la panadería">
+    </a>
+    <h1><a href="index.html">Panadería YG</a></h1>
+    <p>¡Donde cada bocado es una delicia!</p>
+  
+  </header>
+
+  <nav>
+    <a href="index.html">Productos</a>
+    <a href="pasteles.html">Pasteles</a>
+    <a href="sobre-nosotros.html">Sobre nosotros</a>
+    <a href="accesorios.html">Accesorios</a>
+    <a href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+    <a href="contacto.html">Contacto</a>
+    <!-- Agrega más enlaces según sea necesario -->
+  </nav>
+
+  <main>
+    <section id="quienes-somos">
+      <h2>Quiénes Somos</h2>
+      <p>Somos la Panadería YG, una marca que trasciende la simple elaboración de productos horneados. Nuestra visión va más allá de proporcionar alimentos; nos esforzamos por ser el epicentro donde los sabores se entrelazan con las emociones.</p>
+
+      <p>En cada rincón de nuestra panadería, se respira la pasión por la autenticidad y la frescura. Desde la selección meticulosa de ingredientes hasta la dedicación de nuestros expertos panaderos, cada paso refleja nuestro compromiso con la excelencia.</p>
+
+      <p>En Panadería YG, no solo creamos productos; creamos experiencias que endulzan los momentos especiales y cotidianos de quienes nos eligen. Nuestro propósito es deleitar los paladares y crear recuerdos duraderos a través de la magia de la repostería.</p>
+    </section>
+
+    <section id="nuestra-historia">
+      <h2>Nuestra Historia</h2>
+      <p>Desde nuestras humildes raíces en 2005, hemos recorrido un camino de crecimiento y evolución constante. Lo que comenzó como una pequeña panadería local se ha transformado en una marca reconocida por su calidad y originalidad.</p>
+
+      <p>Nuestra historia se teje con la dedicación de un equipo apasionado y la fidelidad de una comunidad que valora la excelencia. Cada día, nos esforzamos por superar las expectativas, expandiendo nuestro menú para ofrecer una amplia gama de productos, desde panes frescos hasta exquisitos pasteles y accesorios únicos.</p>
+
+      <p>En el corazón de nuestra historia está el compromiso inquebrantable con la satisfacción del cliente. Cada cliente no solo es un comensal, sino un miembro querido de la familia Panadería YG. A medida que continuamos escribiendo nuestra historia, lo hacemos con gratitud, pasión y el deseo eterno de compartir la alegría a través de nuestros productos.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Panadería YG</p>
+    
+    <!-- Contenedor de botones de redes sociales -->
+    <div id="social-links">
+      <button class="social-button" onclick="window.open('https://www.facebook.com/geovanni212', '_blank')">
+          <img src="img/facebook.png" alt="Facebook">
+      </button>
+      <button class="social-button" onclick="window.open('https://www.instagram.com/ygeovannigl/', '_blank')">
+          <img src="img/instagram.png" alt="Instagram">
+      </button>
+      <button class="social-button" onclick="window.open('https://github.com/geovannigarcia95', '_blank')">
+          <img src="img/github.png" alt="GitHub">
+      </button>
+      <button class="social-button" onclick="window.open('https://twitter.com/PokerGeovanni', '_blank')">
+          <img src="img/twitter.png" alt="Twitter">
+      </button>
+      <button class="social-button" onclick="window.location.href='mailto:joshio.garcia86@outlook.com'">
+          <img src="img/outlook.png" alt="Outlook">
+      </button>
+      <button class="social-button" onclick="window.location.href='mailto:geovannipoker@gmail.com'">
+          <img src="img/gmail.png" alt="Gmail">
+      </button>
+  </div>
+  
+  </footer>
+  <!-- Incluye el script de sobre-nosotros.js -->
+  <script src="scripts/sobre-nosotros.js" defer></script>
+
+</body>
+</html>

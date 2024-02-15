@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Panadería YG - Preguntas Frecuentes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilos/styles.css">
+  <style>
+    /* Estilos para los botones de redes sociales */
+    #social-links {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center; /* Centra los botones horizontalmente */
+    }
+
+    .social-button {
+        width: 50px; /* Ancho fijo para los botones */
+        height: 50px; /* Alto fijo para los botones */
+        cursor: pointer;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .social-button img {
+        max-width: 100%; /* Ajusta el tamaño máximo del icono */
+        max-height: 100%; /* Ajusta el tamaño máximo del icono */
+    }
+
+    .social-button:hover {
+        filter: brightness(80%); /* Cambia el brillo al pasar el ratón */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img id="logo" src="assets/logo_yg.jpeg" alt="Logo de la panadería">
+    </a>
+    <h1><a href="index.html">Panadería YG</a></h1>
+    <p>¡Donde cada bocado es una delicia!</p>
+   
+  </header>
+
+  <nav>
+    <a href="index.html">Productos</a>
+    <a href="pasteles.html">Pasteles</a>
+    <a href="sobre-nosotros.html">Sobre nosotros</a>
+    <a href="accesorios.html">Accesorios</a>
+    <a href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="preguntas">
+      <h2>Preguntas Frecuentes</h2>
+      <div class="pregunta">
+        <h3>¿Cuál es su horario de atención?</h3>
+        <p>Nuestro horario de atención es de lunes a viernes de 7:00 a.m. a 9:00 p.m. y sábados y domingos de 8:00 a.m. a 8:00 p.m.</p>
+      </div>
+      <div class="pregunta">
+        <h3>¿Ofrecen opciones sin gluten?</h3>
+        <p>Sí, contamos con una variedad de productos sin gluten, incluyendo panes, pasteles y galletas. Consulta nuestro menú para más detalles.</p>
+      </div>
+      <div class="pregunta">
+        <h3>¿Hacen entregas a domicilio?</h3>
+        <p>Sí, ofrecemos servicio de entrega a domicilio dentro de un radio de 10 km de nuestra panadería. El costo de envío puede variar según la ubicación. Para más información y tarifas, contáctanos.</p>
+      </div>
+      <div class="pregunta">
+        <h3>¿Cuál es su política de devoluciones?</h3>
+        <p>Aceptamos devoluciones dentro de los 7 días siguientes a la compra, siempre y cuando el producto esté en su empaque original y en condiciones de ser vendido nuevamente. Para más detalles, consulta nuestra política de devoluciones.</p>
+      </div>
+      <div class="pregunta">
+        <h3>¿Tienen opciones vegetarianas?</h3>
+        <p>Sí, ofrecemos una variedad de productos vegetarianos, incluyendo empanadas de vegetales, quiches y pastas frescas. ¡Pregunta por nuestras opciones vegetarianas en el mostrador!</p>
+      </div>
+      <div class="pregunta">
+        <h3>¿Dónde puedo encontrar información nutricional de sus productos?</h3>
+        <p>Puedes encontrar información nutricional detallada de nuestros productos en nuestro sitio web, así como en las etiquetas de los productos en nuestra tienda.</p>
+      </div>
+      <!-- Agrega más preguntas y respuestas según sea necesario -->
+    </section>
+
+    <section id="formulario-contacto">
+      <h2>¿Tienes Otras Preguntas?</h2>
+      <p>No dudes en contactarnos si tienes alguna pregunta adicional. Estamos aquí para ayudarte.</p>
+      <a href="contacto.html" class="boton">Contacto</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Panadería YG</p>
+    <div id="social-links">
+      <button class="social-button" onclick="window.open('https://www.facebook.com/geovanni212', '_blank')">
+          <img src="img/facebook.png" alt="Facebook">
+      </button>
+      <button class="social-button" onclick="window.open('https://www.instagram.com/ygeovannigl/', '_blank')">
+          <img src="img/instagram.png" alt="Instagram">
+      </button>
+      <button class="social-button" onclick="window.open('https://github.com/geovannigarcia95', '_blank')">
+          <img src="img/github.png" alt="GitHub">
+      </button>
+      <button class="social-button" onclick="window.open('https://twitter.com/PokerGeovanni', '_blank')">
+          <img src="img/twitter.png" alt="Twitter">
+      </button>
+      <button class="social-button" onclick="window.location.href='mailto:joshio.garcia86@outlook.com'">
+          <img src="img/outlook.png" alt="Outlook">
+      </button>
+      <button class="social-button" onclick="window.location.href='mailto:geovannipoker@gmail.com'">
+          <img src="img/gmail.png" alt="Gmail">
+      </button>
+  </div>
+  </footer>
+
+  <script src="scripts/preguntas-frecuentes.js"></script>
+
+  
+</body>
+</html>

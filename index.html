@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Panadería YG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilos/styles.css">
+  <style>
+    /* Estilos para los botones de redes sociales */
+    #social-links {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center; /* Centra los botones horizontalmente */
+    }
+
+    .social-button {
+        width: 50px; /* Ancho fijo para los botones */
+        height: 50px; /* Alto fijo para los botones */
+        cursor: pointer;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .social-button img {
+        max-width: 100%; /* Ajusta el tamaño máximo del icono */
+        max-height: 100%; /* Ajusta el tamaño máximo del icono */
+    }
+
+    .social-button:hover {
+        filter: brightness(80%); /* Cambia el brillo al pasar el ratón */
+    }
+  </style>
+  <script src="scripts/script.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img id="logo" src="assets/logo_yg.jpeg" alt="Logo de la panadería">
+    </a>
+    <h1>Panadería YG</h1>
+    <p>¡Donde cada bocado es una delicia!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Productos</a>
+    <a href="pasteles.html">Pasteles</a>
+    <a href="sobre-nosotros.html">Sobre nosotros</a>
+    <a href="accesorios.html">Acesorios</a>
+    <a href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+    <a href="contacto.html">Contacto</a>
+    
+    <!-- Agrega más enlaces según sea necesario -->
+  </nav>
+  
+
+  <main>
+    <!-- Contenido principal de la página, por ejemplo, la sección de productos -->
+    <section id="productos">
+      <h2>Nuestros Deliciosos Productos</h2>
+      <!-- Agrega imágenes y descripciones de productos desde la carpeta assets -->
+      <div class="producto">
+        <img src="assets/producto1.jpg" alt="Donas">
+        <h2>Donas</h2>
+        <p>Pieza esponjosa de repostería en forma de rosca, frita y generalmente glaseada o cubierta de chocolate.</p>
+        <p>Precio: $8 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto19.jpg" alt="Donas Rellenas">
+        <h2>Donas Rellenas</h2>
+        <p>Dona esponjosa con relleno para</p>
+        <p>Precio: $12 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto2.jpg" alt="Concha de Pan">
+        <h2>Concha </h2>
+        <p>Disfruta de nuestra deliciosa concha, un bocado tierno y dulce que deleitará tu paladar...</p>
+        <p>Precio: $9 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto3.jpg" alt="Cuernito">
+        <h2>Cuernito </h2>
+        <p>Como los que te pone tu vieja o tu vato XD </p>
+        <p>Precio: $8 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto4.jpg" alt="Cuernito">
+        <h2>Tomatito </h2>
+        <p>El pastelito de tomate es una deliciosa preparación culinaria que combina sabores salados y dulces.  </p>
+        <p>Precio: $10 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto5.jpg" alt="Cuernito">
+        <h2>Cono </h2>
+        <p>Pan de dulce que consiste en una pasta tipo hojaldrada en forma de cono rellena con lechecilla. </p>
+        <p>Precio: $12 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto6.jpg" alt="Cuernito">
+        <h2>Cochinito </h2>
+        <p>El cochinito es un tipo de pan dulce mexicano elaborado principalmente a base de harina (de maíz o de trigo), piloncillo, canela, levadura y otros ingredientes.</p>
+        <p>Precio: $7 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto7.jpg" alt="Galletas">
+        <h2>Galletas </h2>
+        <p> es una preparación culinaria de pequeño tamaño, dulce, salada o agridñulce, horneada y hecha normalmente a base de harina de trigo, huevos, azúcar, mantequilla o aceites vegetales o grasas animales.</p>
+        <p>Precio: $7 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto8.jpg" alt="Bolillo">
+        <h2>Bolillo</h2>
+        <p>Es un pan tradicional mexicano, de sencillo sabor y bajo precio, es una de la forma más comunes de pan salado, tiene forma de rombo con una hendidura en el centro, es crujiente por fuera y suave y esponjoso por dentro, lo que todo mexicano conocemos como migajón.</p>
+        <p>Precio: $6 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto9.jpg" alt="Margaritas">
+        <h2>Margaritas</h2>
+        <p>RICO PAN DE LA PANADERIA</p>
+        <p>Precio: $5 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto10.jpg" alt="Empanadas">
+        <h2>Empanadas</h2>
+        <p>Estas empanadas ofrecen una combinación de sabores dulces y frutales, cada una con su propio carácter distintivo. El tipo de masa utilizada para las empanadas también puede variar, desde masas más crujientes hasta masas más suaves y esponjosas. ¡Son ideales como postre o para disfrutar en cualquier ocasión especial!</p>
+        <p>Precio: $8 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto11.jpg" alt="Abanicos">
+        <h2>Abanicos</h2>
+        <p>Pan dulce elaborado con harina de trigo decorado con chocolate</p>
+        <p>Precio: $10 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto12.jpg" alt="Corbata">
+        <h2>Corbata</h2>
+        <p> Masa laminada (parecida al hojaldre pero de sabor dulce) lo que le da una textura diferente al resto de los panes, de forma caprichosa y parecida al moño de vestir, espolvoreada con azucar.</p>
+        <p>Precio: $8 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto13.jpg" alt="Oreja">
+        <h2>Oreja</h2>
+        <p>Pan Oreja Brillante es un delicioso pan dulce mexicano en forma de oreja, suave por dentro y crujiente por fuera. Esta pieza única es perfecta para disfrutar con un café o té en cualquier momento del día, y su brillo dorado la hace aún más atractiva.</p>
+        <p>Precio: $8 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto14.jpg" alt="Beso">
+        <h2>Beso</h2>
+        <p>el Pan Beso se llama así debido a que. parece que las dos partes que componen el pan están. besándose. </p>
+        <p>Precio: $9 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto15.jpg" alt="Rollo">
+        <h2>Rollo</h2>
+        <p> Producto de panadería blando de forma enrollada de 60 gramos unidad. </p>
+        <p>Precio: $8 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto16.jpg" alt="Rol">
+        <h2>Rol</h2>
+        <p> Consiste en un rollo de masa abriochada con canela y mezcla de azúcar (y pasas en algunos casos), rociado sobre una delgada capa de mantequilla. La masa es enrollada, cortada en porciones individuales y horneada. A los rollos de canela se les glasea con azúcar o una crema de queso.</p>
+        <p>Precio: $8 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto17.jpg" alt="Banderilla">
+        <h2>Banderilla</h2>
+        <p>Suave pasta hojaldrada de superficie, cubierta de azúcar caramelizada, que se deshace en tu boca a cada bocado. ¡No dudes en probarla! Cómprala en Jüsto y recuerda consumirla con moderación.</p>
+        <p>Precio: $10 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto18.jpg" alt="Rebanada">
+        <h2>Rebanada</h2>
+        <p>La rebanada dominó se elabora con masa de panqué; tiene forma rectangular, es muy esponjada y se baña con chocolate.</p>
+        <p>Precio: $9 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto20.jpg" alt="Manteconcha">
+        <h2>Manteconcha</h2>
+        <p>La manteconcha es un pan dulce, mitad mantecada y mitad concha dulce.</p>
+        <p>Precio: $9 c/u</p>
+      </div>
+      <div class="producto">
+        <img src="assets/producto21.jpg" alt="Doncha">
+        <h2>Doncha</h2>
+        <p>La idea original de la doncha fue de Mario Conde, quien le sugirió su amigo panadero Enrique Alva, que debería de fusionar una concha con una dona.</p>
+        <p>Precio: $9 c/u</p>
+      </div>
+    </section>
+   
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 Panadería YG</p>
+  <div id="social-links">
+    <button class="social-button" onclick="window.open('https://www.facebook.com/geovanni212', '_blank')">
+        <img src="img/facebook.png" alt="Facebook">
+    </button>
+    <button class="social-button" onclick="window.open('https://www.instagram.com/ygeovannigl/', '_blank')">
+        <img src="img/instagram.png" alt="Instagram">
+    </button>
+    <button class="social-button" onclick="window.open('https://github.com/geovannigarcia95', '_blank')">
+        <img src="img/github.png" alt="GitHub">
+    </button>
+    <button class="social-button" onclick="window.open('https://twitter.com/PokerGeovanni', '_blank')">
+        <img src="img/twitter.png" alt="Twitter">
+    </button>
+    <button class="social-button" onclick="window.location.href='mailto:joshio.garcia86@outlook.com'">
+        <img src="img/outlook.png" alt="Outlook">
+    </button>
+    <button class="social-button" onclick="window.location.href='mailto:geovannipoker@gmail.com'">
+        <img src="img/gmail.png" alt="Gmail">
+    </button>
+</div>
+</footer>
+</body>
+</html>

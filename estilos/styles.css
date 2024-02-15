@@ -1,0 +1,130 @@
+/* Estilos generales */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe7b3; /* Amarillo suave */
+}
+
+header {
+  background-color: #ff5f5f; /* Rojo coral */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+#logo {
+  width: 150px; /* Tamaño fijo para el logo */
+  height: 150px; /* Tamaño fijo para el logo */
+  border-radius: 50%; /* Hace que el logo sea redondo */
+  display: block;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #4d94ff; /* Azul suave */
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+nav a:hover {
+  background-color: #0066cc; /* Azul más oscuro al pasar el ratón */
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Estilos para la sección de productos (pasteles y accesorios) */
+
+#productos,
+#pasteles,
+#accesorios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#productos h2,
+#pasteles h2,
+#accesorios h2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.producto,
+.pastel,
+.accesorio {
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img,
+.pastel img,
+.accesorio img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.producto h2,
+.producto h3,
+.pastel h3,
+.accesorio h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.producto p,
+.pastel p,
+.accesorio p {
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos para la sección de accesorios */
+
+#accesorios .accesorio {
+  text-align: left;
+}
+
+#accesorios .accesorio img {
+  border-radius: 8px;
+}
+
+#accesorios .accesorio h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#accesorios .accesorio p {
+  margin-bottom: 10px;
+}
+
+/* Estilos para el pie de página */
+
+footer {
+  background-color: #4d94ff; /* Azul suave */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
